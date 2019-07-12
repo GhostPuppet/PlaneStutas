@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorLeft" format="color"></attr>
+    <attr name="colorRight" format="color"></attr>
+    <attr name="heightDifference" format="dimension"></attr>
+    <attr name="lineAngle" format="float"></attr>
+    <attr name="lineOrientation" format="integer"></attr>
+    <declare-styleable name="MyLinearLayoutTwoPart">
+        <attr name="colorLeft"></attr>
+        <attr name="colorRight"></attr>
+        <attr name="heightDifference"></attr>
+        <attr name="lineAngle"></attr>
+        <attr name="lineOrientation"></attr>
+    </declare-styleable>
+</resources>

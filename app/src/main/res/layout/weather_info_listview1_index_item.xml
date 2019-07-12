@@ -1,0 +1,43 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/weather_info_listview1_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/weather_info_listview1_item_line1_tipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/weather_info_listview1_item_line1_zs"
+            android:layout_toRightOf="@+id/weather_info_listview1_item_line1_tipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/weather_info_listview1_item_line1_title"
+            android:layout_below="@+id/weather_info_listview1_item_line1_tipt"
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/weather_info_listview1_item_line1_des"
+            android:layout_below="@+id/weather_info_listview1_item_line1_tipt"
+            android:layout_toRightOf="@+id/weather_info_listview1_item_line1_title"
+            android:layout_alignLeft="@+id/weather_info_listview1_item_line1_zs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
